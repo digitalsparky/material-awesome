@@ -8,16 +8,17 @@ local rofi_command = 'env /usr/bin/rofi -dpi ' .. get_dpi() .. ' -width ' .. wit
 return {
   -- List of apps to start by default on some actions
   default = {
-    terminal = '/home/matt/.cargo/bin/alacritty',
+    terminal = 'env x-terminal-emulator',
     rofi = rofi_command,
     lock = 'i3lock-fancy',
     screenshot = '~/.config/awesome/configuration/utils/screenshot -m',
     region_sxcreenshot = '~/.config/awesome/configuration/utils/screenshot -r',
     delayed_screenshot = '~/.config/awesome/configuration/utils/screenshot --delayed -r',
+    quake = 'alacritty',
 
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'env brave-browser-nightly',
+    browser = 'brave-browser-nightly',
     editor = 'subl', -- gui text editor
     social = 'flatpak run com.discordapp.Discord',
     game = rofi_command,

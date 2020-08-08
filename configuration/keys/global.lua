@@ -129,7 +129,7 @@ local globalKeys =
     {modkey},
     'p',
     function()
-      awful.util.spawn_with_shell('brave-browser')
+      awful.util.spawn_with_shell('brave-browser-nightly')
     end,
     {description = 'Open Brave', group = 'launcher'}
   ),
