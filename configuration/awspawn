@@ -11,14 +11,12 @@
 # is intended to be a copy of this file
 # to allow out of tree autostart programs
 APPS=(
-	/home/matt/.cargo/bin/alacritty,
-	brave-browser-nightly,
-	discord
-    )
+	$HOME/.config/awesomestart
+)
 
 # Some applications start child applications that need to be killed on reload
 KILL=(
-    )
+)
 
 # First kill lingering apps
 for app in "${APPS[@]}"
