@@ -11,6 +11,7 @@
 # is intended to be a copy of this file
 # to allow out of tree autostart programs
 APPS=(
+	$HOME/.config/awesome/bin/autolock.sh
 	$HOME/.config/awesomestart
 )
 
