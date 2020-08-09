@@ -76,5 +76,5 @@ The project is split in functional directories and in each of them there is a re
 * You must symlink bin/sleep.sh as follows to enable on-sleep locking:
 
 ```bash
-ln -s $PWD/bin/sleep.sh /etc/pm.d/sleep/lock
+sudo ln -s $PWD/bin/sleep.sh /etc/pm.d/sleep/lock
 ```
