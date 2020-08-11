@@ -36,6 +36,10 @@ return {
     'numlockx on', -- enable numlock
     '/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     'redshift',
+    'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1',
+    'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1',
+    'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Middle Emulation Enabled" 1',
+
     --'/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     --'blueman-tray', -- bluetooth tray
     --'geary --hidden', -- Email client

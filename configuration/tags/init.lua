@@ -5,12 +5,6 @@ local apps = require('configuration.apps')
 
 local tags = {
   {
-    icon = icons.code-braces,
-    type = 'terminal',
-    defaultApp = apps.default.terminal,
-    screen = 1
-  },
-  {
     icon = icons.chrome,
     type = 'chrome',
     defaultApp = apps.default.browser,
