@@ -140,7 +140,7 @@ local globalKeys =
     function()
       awful.util.spawn_with_shell('xscreensaver-command -lock')
     end,
-    {description = "lock the screen"}
+    {description = "lock the screen", group = 'screensaver'}
   ),
   -- Standard program
   awful.key(
