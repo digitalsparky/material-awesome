@@ -133,6 +133,15 @@ local globalKeys =
     end,
     {description = 'Open Brave', group = 'launcher'}
   ),
+  -- screen locking
+  awful.key(
+    {modkey},
+    'l',
+    function()
+      awful.util.spawn_with_shell('xscreensaver-command -lock')
+    end,
+    {description = "lock the screen"}
+  ),
   -- Standard program
   awful.key(
     {modkey},
