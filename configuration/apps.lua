@@ -18,7 +18,7 @@ return {
 
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'firefox',
+    browser = 'brave-browser-nightly',
     editor = 'subl', -- gui text editor
     social = 'flatpak run com.discordapp.Discord',
     game = rofi_command,
