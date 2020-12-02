@@ -35,7 +35,6 @@ return {
     'pulseaudio', -- pulse audio
     'numlockx on', -- enable numlock
     '/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
-    'xscreensaver -nosplash', -- enable screensaver/locking
     'redshift',
     'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1',
     'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1',

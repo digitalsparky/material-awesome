@@ -138,7 +138,7 @@ local globalKeys =
     {modkey},
     'l',
     function()
-      awful.util.spawn_with_shell('xscreensaver-command -lock')
+      awful.util.spawn_with_shell('i3lock-fancy')
     end,
     {description = "lock the screen", group = 'screensaver'}
   ),
