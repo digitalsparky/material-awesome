@@ -39,7 +39,7 @@ return {
     'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1',
     'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1',
     'xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Middle Emulation Enabled" 1',
-
+    'megasync',
     --'/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     --'blueman-tray', -- bluetooth tray
     --'geary --hidden', -- Email client
